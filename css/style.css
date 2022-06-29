@@ -1,0 +1,50 @@
+body{
+    background-image: url(/zavrsni/img/background.jpg);
+}
+
+#link{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20;
+}
+a:link, a:visited{
+	color: rgba(166,0,2,1.00);
+    text-decoration: none;}
+a:hover{
+	color: black;}
+a:active{color: white;}
+
+#wrap{
+margin: auto;
+background-color: rgb(189, 189, 189, 0.5);
+width: 300px;
+padding-left: 15px;
+}
+
+.meni{
+    padding-left: 15px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+}
+
+#result{
+margin-top: 40px;
+margin-bottom: 0px;
+border-color: black;
+}
+#pretraga{
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    border: yellow;
+}
+
+#search{
+    margin-top: 40px;
+}
+
+table{
+    border:red;
+    border-radius: 80px;
+    border-width: 3px;
+}
