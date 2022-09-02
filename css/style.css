@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/background.jpg);
+    background-image: url(/img/background.jpg);
 }
 
 #link{
@@ -45,7 +45,7 @@ border-color: black;
 }
 
 table{
-    border:red;
+    border:blue;
     border-radius: 80px;
     border-width: 3px;
 }
