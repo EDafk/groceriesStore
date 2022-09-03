@@ -15,6 +15,7 @@
   <a href="insert.php" class="meni">Dodavanje<a>
   <a href="remove.php" class="meni">Brisanje<a>
 </div>
+<hr class="underline">
 		
 		<?php
 		
@@ -28,10 +29,10 @@
 				?>
 	
 
-<div id="result">
-			<a href="inc/removeEntry.php?id=<?php echo $row['id'] ?>" id="link"> Izbriši </a>
-				<p><b>Jedinica: </b> <?php echo $row['Jedinica'] . " " . $row['Vrsta']; ?></p>
-				<p><b>Cijena: </b> <?php echo $row['Cijena']; ?> <br><hr></p>
+<div class="result">
+				<p class="item"><b>Jedinica: </b> <?php echo $row['Jedinica'] . " " . $row['Vrsta']; ?></p>
+				<a href="inc/removeEntry.php?id=<?php echo $row['id'] ?>" id="link"> Izbriši </a>
+				<p class="item"><b>Cijena: </b> <?php echo $row['Cijena']; ?> <br><hr></p>
 			</div>				
 
 				<?php
