@@ -37,6 +37,7 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    box-shadow: 24px 14px 41px -2px rgba(0,0,0,0.73);
     background-color: rgba(24, 9, 9, 0.8);
     padding: 15px;
     border-radius: 10px;
@@ -60,6 +61,10 @@ a:active {
     margin-top: 5px;
     margin-bottom: 0px;
     border-color: black;
+    border-radius: 5px;
+    box-shadow: -2px -2px 78px 0px rgba(0,0,0,0.91) inset;
+
+
 }
 
 #pretraga {
@@ -84,5 +89,5 @@ table {
 }
 
 .item {
-    margin: 5px;
+    margin: 15px;
 }
