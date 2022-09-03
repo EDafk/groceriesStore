@@ -20,13 +20,13 @@
 		<form action="#" method="POST">
 		
 			<label> Jedinica: <br>
-		<input type="text" name="Jedinica"> </label><br>
+		<input type="text" name="Jedinica" class="input"> </label><br>
 			<label> Vrsta: <br>
-		<input type="text" name="Vrsta"> </label><br>
+		<input type="text" name="Vrsta" class="input"> </label><br>
 			<label> Cijena: <br>
-		<input type="text" name="Cijena"> </label><br>
+		<input type="text" name="Cijena" class="input"> </label><br>
 		
-		<input type="submit" name="insert" value="Insert"> <br>
+		<input type="submit" name="insert" value="Dodavanje"> <br>
 		
 		
 		</form>

@@ -15,7 +15,7 @@
 <div id="result">
   <p>Unesite naziv artikla koji želite pretražiti u bazi podataka: </p>
   <form action="#" method="GET">
-		<input type="text" placeholder="Search database" name="criteria">
+		<input type="text" placeholder="Pretražite skladište" name="criteria" class="input">
 		<input type="submit" value="Search"> <br>
 		</form>
 

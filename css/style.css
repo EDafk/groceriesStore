@@ -2,6 +2,10 @@ body {
     background-image: url(../img/background.jpg);
     font-size: 20px;
 }
+.input{
+    height: 25px;
+    width: 325px;
+}
 
 #link {
     display: flex;
@@ -26,7 +30,7 @@ a:active {
 #wrap {
     margin: auto;
     background-color: rgb(189, 189, 189, 0.5);
-    width: 300px;
+    width: 450px;
     padding: 15px;
     border-radius: 15px;
 
@@ -58,6 +62,7 @@ a:active {
 }
 
 .result {
+    padding: 1px;
     margin-top: 5px;
     margin-bottom: 0px;
     border-color: black;
